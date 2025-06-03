@@ -15,9 +15,8 @@ jobs:
 
       - name: Install Zola
         run: |
-          curl -sSL https://github.com/getzola/zola/releases/latest/download/zola-x86_64-unknown-linux-gnu.tar.gz | tar -x
+          curl -sSL https://github.com/getzola/zola/releases/latest/download/zola-x86_64-unknown-linux-gnu.tar.gz | sudo tar xvzf - -C /usr/local/bin
           sudo mv zola /usr/local/bin
-
       - name: Build the site
         run: zola build
 
