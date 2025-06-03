@@ -133,9 +133,11 @@ body {
     font-size: 15px;
     letter-spacing: -0.05em;
     font-family: "JetBrains Mono", monospace;
-    color: #f8f8f2;
+    background-color: #222;
+    color: #ddd;
     padding: 0 5vw;
-    background: #21222c;
+    /* color: #d2d2c4; */
+    /* background: #2d2740; */
 }
 
 pre {
@@ -179,12 +181,12 @@ p > code {
 a:link,
 a:active,
 a:visited {
-    color: #ff79c6;
+    color: #545397;
     text-decoration: none;
 }
 
 a:hover {
-    color: #8be9fd;
+    color: #2699b3;
     text-decoration: none;
 }
 
