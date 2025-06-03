@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    {% block title %}
+        <title>Juan Brieva's Website</title>
+    {% endblock title %}
+    <link href="/main.css" rel="stylesheet">
+    <script src="/footnotes.js"></script>
+    <link rel="alternate" type="application/rss+xml" title="RSS" href="{{ get_url(path="rss.xml", trailing_slash=false) }}">
+</head>
+
+
+<body>
+    <header>
+        {% block header %}{% endblock header %}
+    </header>
+    <nav>
+        {% block nav %}
+            <div class="navbar">
+                {% for navitem in config.extra.nav %}
+                    {% if section and section.path == navitem.path %}
+                        <span style="color: #ccc; text-decoration: underline; padding: 5px">{{ navitem.label }}</span>
+                    {% else %}
+                        <a style="padding: 5px" href="{{ navitem.path }}">{{ navitem.label }}</a>
+                    {% endif %}
+                {% endfor %}
+                {#<a href="mailto:contact@juanbri.es">contact</a>#}
+                {% if section and section.extra.lang is defined %}
+                <div class="nonnavlang">
+                    en es
+                </div>
+                <div class="navlang">
+                    {% if section.extra.lang == "en" %}
+                        <span style="color: #ccc; text-decoration: underline">en</span>
+                    {% else %}
+                        <a href="/">en</a>
+                    {% endif %}
+                    {% if section.extra.lang == "es" %}
+                        <span style="color: #ccc; text-decoration: underline">es</span>
+                    {% else %}
+                        <a href="/es/">es</a>
+                    {% endif %}
+                </div>
+                {% endif %}
+            </div>
+            <hr>
+        {% endblock nav %}
+    </nav>
+    <main>
+        {% block content %} {% endblock %}
+    </main>
+</body>
+
+
+</html>
