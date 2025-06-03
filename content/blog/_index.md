@@ -9,9 +9,8 @@ page_template = "post.html"
 
 
 [extra]
-summary = "Where I write about my projects"
+summary = "Here I gather some of my thoughts ..."
 head_title = "Blog"
 
 +++
 
-Here I will gather some of my thoughts on diverse topics...

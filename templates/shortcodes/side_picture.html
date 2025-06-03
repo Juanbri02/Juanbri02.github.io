@@ -1,0 +1,6 @@
+<div class="side-picture-row">
+    <img src="{{ image }}" class="side-picture" alt="{{ alt | default(value="image") }}">
+  <div class="image-description">
+    {{ body | markdown | safe }}
+  </div>
+</div>

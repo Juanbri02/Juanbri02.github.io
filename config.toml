@@ -26,8 +26,10 @@ highlight_code = true
 
 # The theme to use for code highlighting.
 # See below for list of allowed values.
-highlight_theme = "dracula"
-
+highlight_themes_css = [
+	{ theme = "solarized-dark", filename = "syntax-theme-dark.css" },
+	{ theme = "solarized-light", filename = "syntax-theme-light.css" }
+]
 # When set to "true", emoji aliases translated to their corresponding
 # Unicode emoji equivalent in the rendered Markdown files. (e.g.: :smile: => 😄)
 render_emoji = true
@@ -38,8 +40,9 @@ external_links_target_blank = true
 
 # Whether smart punctuation is enabled (changing quotes, dashes, dots in their typographic form)
 # For example, `...` into `…`, `"quote"` into `“curly”` etc
-smart_punctuation = false
+smart_punctuation = true
 
+bottom_footnotes = true
 
 [languages.es]
 
@@ -48,8 +51,19 @@ smart_punctuation = false
 
 # Pages included in the navBar
 nav = [
-    { path = "/", label = "home" },
-    { path = "/blog/", label = "blog" },
-    { path = "/projects/", label = "projects" },
-    { path = "/about/", label = "about" },
+    { path = "/", label = "Home" },
+    { path = "/blog/", label = "Blog" },
+    { path = "/projects/", label = "Projects" },
+    { path = "/about/", label = "About" },
 ]
+
+
+# Duckquill config
+
+default_theme = "dark"
+# Sets theme and browser theme color.
+# See https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta/name/theme-color
+accent_color = "#ff7800"
+# Ditto but for the dark theme.
+# If not set regular variant will be used.
+accent_color_dark = "#ffa348"

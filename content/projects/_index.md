@@ -7,7 +7,7 @@ paginate_by = 25
 
 
 [extra]
-summary = "Where I write about my projects"
+summary = "Where I cover my projects"
 head_title = "Projects"
 +++
 

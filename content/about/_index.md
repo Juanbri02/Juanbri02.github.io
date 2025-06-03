@@ -7,6 +7,4 @@ head_title = "About"
 
 +++
 
-This is my CV
-
-# hello
+I am

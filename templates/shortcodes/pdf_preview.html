@@ -1,0 +1,8 @@
+<div class="pdf-preview-row">
+  <a href="{{ path }}" target="_blank">
+    <img src="{{ image }}" class="pdf-thumb" alt="{{ alt | default(value="PDF preview") }}">
+  </a>
+  <div class="pdf-description">
+    {{ body | markdown | safe }}
+  </div>
+</div>

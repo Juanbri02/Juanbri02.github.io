@@ -265,3 +265,58 @@ del {
     text-align: center;
 }
 
+/* Iframe config */
+iframe {
+  border-radius: 6px;
+  margin-top: 1rem;
+}
+
+/* Preview rows of pdf */
+.pdf-preview-row {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  margin: 2rem 0;
+  flex-wrap: wrap;
+}
+
+/* Thumnail of PDF */
+.pdf-thumb {
+  width: 300px;
+  height: auto;
+  border: 1px solid #444;
+  border-radius: 6px;
+  display: block;
+}
+/* Lateral pdf text */
+.pdf-description {
+  flex: 1;
+  min-width: 200px;
+}
+
+/* Side picture */
+.side-picture {
+  float: left;
+  width: 200px;
+  height: auto;
+  border: 1px solid #444;
+  border-radius: 10px;
+  display: block;
+  margin-right: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+
+.side-picture-row {
+  align-items: flex-start;
+  gap: 1.5rem;
+  margin: 2rem 0;
+  flex-wrap: wrap;
+}
+
+/* Limit the text container width on wide screens */
+.image-description {
+  flex: 1 1 300px; /* allow it to shrink/grow */
+  min-width: 250px; /* ensures wrapping works smoothly */
+}
+
