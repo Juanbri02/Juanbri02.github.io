@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title>Juan Brieva&#x27;s Website - My Blog</title>
+    <subtitle>My personal website</subtitle>
+    <link rel="self" type="application/atom+xml" href="https://juanbri.es/blog/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://juanbri.es/blog/"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2025-06-04T00:00:00+00:00</updated>
+    <id>https://juanbri.es/blog/atom.xml</id>
+    <entry xml:lang="en">
+        <title>Welcome to my blog</title>
+        <published>2025-06-04T00:00:00+00:00</published>
+        <updated>2025-06-04T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Juan Brieva
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://juanbri.es/blog/welcome/"/>
+        <id>https://juanbri.es/blog/welcome/</id>
+        
+        <content type="html" xml:base="https://juanbri.es/blog/welcome/">&lt;p&gt;Welcome to my blog! Thanks for passing by. Right now this is the only post, but im hoping that soon there will be more content in here.&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+</feed>
