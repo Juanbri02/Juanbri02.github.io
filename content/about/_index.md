@@ -5,6 +5,7 @@ description = "More about me"
 
 [extra]
 head_title = "About"
+lang = "en"
 
 +++
 

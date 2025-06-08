@@ -310,10 +310,12 @@ iframe {
 
 
 .side-picture-row {
-  align-items: flex-start;
-  gap: 1.5rem;
+  display: grid;
+  grid-template-columns: 200px 1fr;  /* 200 px = ancho de la foto  */
+  grid-auto-rows: auto;
+  column-gap: 1.5rem;
+  row-gap: 1rem;
   margin: 2rem 0;
-  flex-wrap: wrap;
 }
 
 /* Limit the text container width on wide screens */
