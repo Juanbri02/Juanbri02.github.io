@@ -24,7 +24,7 @@
                     {% if section and section.path == navitem.path %}
                         <span style="color: #ccc; text-decoration: underline; padding: 5px">{{ navitem.en}}</span>
                     {% else %}
-                        <a style="padding: 5px" href="{{ navitem.path }}">{{ navitem.label }}</a>
+                        <a style="padding: 5px" href="{{ navitem.path }}">{{ navitem.en }}</a>
                     {% endif %}
                 {% endfor %}
             </div>

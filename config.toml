@@ -53,5 +53,9 @@ bottom_footnotes = true
 
 [extra]
 # Pages included in the navBar
-nav = [{ path = "/", es = "Home", en = "Inicio" }, { path = "/blog/", es = "Blog", en = "Blog" }, { path = "/projects/", es = "Projects", en = "Projectos" }, { path = "/about/", en = "About", es = "Sobre mí" }]
+nav = [	{ path = "/", en = "Home", es = "Inicio" },
+		{ path = "/blog/", en = "Blog", es = "Blog" },
+		{ path = "/projects/", en = "Projects", es = "Proyectos" }, 
+		{ path = "/about/", en = "About", es = "Sobre mí" },
+	]
 
