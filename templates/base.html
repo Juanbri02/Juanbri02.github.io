@@ -22,29 +22,11 @@
             <div class="navbar">
                 {% for navitem in config.extra.nav %}
                     {% if section and section.path == navitem.path %}
-                        <span style="color: #ccc; text-decoration: underline; padding: 5px">{{ navitem.label }}</span>
+                        <span style="color: #ccc; text-decoration: underline; padding: 5px">{{ navitem.en}}</span>
                     {% else %}
                         <a style="padding: 5px" href="{{ navitem.path }}">{{ navitem.label }}</a>
                     {% endif %}
                 {% endfor %}
-                {#<a href="mailto:contact@juanbri.es">contact</a>#}
-                {% if section and section.extra.lang is defined %}
-                <div class="nonnavlang">
-                    en es
-                </div>
-                <div class="navlang">
-                    {% if section.extra.lang == "en" %}
-                        <span style="color: #ccc; text-decoration: underline">en</span>
-                    {% else %}
-                        <a href="/">en</a>
-                    {% endif %}
-                    {% if section.extra.lang == "es" %}
-                        <span style="color: #ccc; text-decoration: underline">es</span>
-                    {% else %}
-                        <a href="/es/">es</a>
-                    {% endif %}
-                </div>
-                {% endif %}
             </div>
             <hr>
         {% endblock nav %}

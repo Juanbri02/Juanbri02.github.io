@@ -13,7 +13,7 @@ lang = "es"
 Mis intereses académicos son amplios, cubriendo geometría, álgebra, teoría de números y física matemática. He investigado en diversas instituciones como la [Universidad de Oxord](https://www.ox.ac.uk/) o [ICMAT](https://www.icmat.es/). El próximo curso realizré un Master en matemáticas fundamentales en la [Universidad Paris Cité](https://u-paris.fr/en/) apoyado por una beca [PGSM Master](https://sciencesmaths-paris.fr/en/pgsm-master). Fuera de lo académico, estoy interesado en diversos temas como informática, filosofía, literatura, cine y otros que espero cubrir aquí
 {% end %}
 
-## Contact
+## Contacto
 
 - Email: [juan@juanbri.es](mailto:juan@juanbri.es)
 - GitHub: [juanbri02](https://github.com/Juanbri02)

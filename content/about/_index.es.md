@@ -1,9 +1,9 @@
 +++
-title = "Welcome to my website!"
+title = "Sobre mí"
 description = "Juan Brieva Ramírez"
 
 [extra]
-head_title = "Home"
+head_title = "Sobre mí"
 lang = "es"
 
 +++

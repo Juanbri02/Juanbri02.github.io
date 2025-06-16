@@ -44,26 +44,14 @@ smart_punctuation = true
 
 bottom_footnotes = true
 
+[languages]
+[languages.en]
+
 [languages.es]
 
+
+
 [extra]
-# Custom variables here
-
 # Pages included in the navBar
-nav = [
-    { path = "/", label = "Home" },
-    { path = "/blog/", label = "Blog" },
-    { path = "/projects/", label = "Projects" },
-    { path = "/about/", label = "About" },
-]
+nav = [{ path = "/", es = "Home", en = "Inicio" }, { path = "/blog/", es = "Blog", en = "Blog" }, { path = "/projects/", es = "Projects", en = "Projectos" }, { path = "/about/", en = "About", es = "Sobre mí" }]
 
-
-# Duckquill config
-
-default_theme = "dark"
-# Sets theme and browser theme color.
-# See https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta/name/theme-color
-accent_color = "#ff7800"
-# Ditto but for the dark theme.
-# If not set regular variant will be used.
-accent_color_dark = "#ffa348"
